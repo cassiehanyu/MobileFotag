@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height= "wrap_content"
+    android:id="@+id/cv"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+        <ImageView
+            android:id="@+id/mainPhoto"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/search"
+            />
+
+        <ImageView
+            android:id="@+id/star3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/mainPhoto"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star_empty"/>
+
+        <ImageView
+            android:id="@+id/star2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/mainPhoto"
+            android:layout_toLeftOf="@+id/star3"
+            android:paddingLeft="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star_empty"/>
+
+        <ImageView
+            android:id="@+id/star1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/mainPhoto"
+            android:layout_toLeftOf="@+id/star2"
+            android:paddingLeft="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star_empty"/>
+
+        <ImageView
+            android:id="@+id/star4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/mainPhoto"
+            android:layout_toRightOf="@+id/star3"
+            android:paddingLeft="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star_empty"/>
+
+        <ImageView
+            android:id="@+id/star5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/mainPhoto"
+            android:layout_toRightOf="@+id/star4"
+            android:paddingLeft="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star_empty"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
